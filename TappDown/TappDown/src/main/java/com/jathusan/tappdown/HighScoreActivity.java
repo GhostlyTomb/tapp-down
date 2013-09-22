@@ -205,11 +205,11 @@ public class HighScoreActivity extends Activity {
 
         } catch (FileNotFoundException e){
             e.printStackTrace();
-            Toast toast = Toast.makeText(getApplicationContext(), "File not found.", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "Error Writing Score.", Toast.LENGTH_SHORT);
             toast.show();
         } catch(IOException e){
             e.printStackTrace();
-            Toast toast = Toast.makeText(getApplicationContext(), "IOException, yo!", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "Error Writing Score.", Toast.LENGTH_SHORT);
             toast.show();
         }
     }
