@@ -1,7 +1,6 @@
-Tapp_Down
+tapp down
 =========
 
-A speed tapping game developed on the android platform. 
-Developed using java and xml. 
+an open-source speed tapping game for android.
 
-Available for download on Google Play: https://play.google.com/store/apps/details?id=com.jathusan.tappdown
+available for free on google play: https://play.google.com/store/apps/details?id=com.jathusan.tappdown
